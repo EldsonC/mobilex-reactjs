@@ -11,41 +11,45 @@ function App() {
   
   return (
     <div className="container-body">
-      <div className="hiro">
-        <HeaderComponent/>
+        <div className="hiro">
+            <HeaderComponent/>
 
-        <div className="text-hiro">
-            <span className="title-text-hiro base-font">Join our team</span>
-            <span className="sub-title-hiro">Wich and be yourself</span>
+            <div className="text-hiro">
+                <span className="title-text-hiro base-font">Join our team</span>
+                <span className="sub-title-hiro">Wich and be yourself</span>
 
-            <ButtonComponent/>
+                <ButtonComponent/>
+            </div>
+
+            <footer>
+                <div className="social-medias">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src={twitterIcon} alt="twitter-icon"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src={facebookIcon} alt="facebook-icon"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src={googlePlayIcon} alt="google-play-icon"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div className="stok">
+                    <span>EMC <span className="lyrics-18">18</span></span>
+                </div>
+            </footer>
         </div>
 
-        <footer>
-            <div className="social-medias">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src={twitterIcon} alt="twitter-icon"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src={facebookIcon} alt="facebook-icon"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src={googlePlayIcon} alt="google-play-icon"/>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div className="stok">
-                <span>EMC <span className="lyrics-18">18</span></span>
-            </div>
-        </footer>
-      </div>
+        <div className='main'>
+
+        </div>
     </div>
 
   );

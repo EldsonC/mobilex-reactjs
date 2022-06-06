@@ -3,10 +3,12 @@
     padding: 0px;
 }
 :root {
+    --color-header: #1C1B21;
     --color-base: white;
     --color-destaque: #815664;
     --gradient-color: linear-gradient(90deg, #D25771 0%, #BC5F54 100%); 
     --color-text: #434449;
+    --color-main: #242529;
 }
 body {
     height: 100vh;
@@ -77,4 +79,9 @@ footer {
     color: var(--color-text);
 }
 /* main css */
+.main {
+    height: 1255px;
+
+    background: var(--color-main);
+}
 
