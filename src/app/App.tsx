@@ -1,11 +1,12 @@
 import React from 'react';
-import facebookIcon from './img/facebook-icon.svg'
-import twitterIcon from './img/twitter-icon.svg'
-import googlePlayIcon from './img/google-play-icon.svg'
-import mobilexLogo from './img/MOBILEx-logo.svg'
+import facebookIcon from '../assets/img/facebook-icon.svg'
+import twitterIcon from '../assets/img/twitter-icon.svg'
+import googlePlayIcon from '../assets/img/google-play-icon.svg'
+import mobilexLogo from '../assets/img/MOBILEx-logo.svg'
 import './App.css';
 
 function App() {
+  let styleBorderBottom = 'border-bottom: 3px solid #815664;'
   return (
     <div className="container-body">
       <div className="hiro">
@@ -14,7 +15,7 @@ function App() {
           <ul>
               <li>About</li>
               <li>Our hope</li>
-              <li>Cariers</li>
+              <li>Carriers</li>
               <li>Blog</li>
               <li>Contact</li>
           </ul>
