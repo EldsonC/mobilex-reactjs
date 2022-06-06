@@ -31,29 +31,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-header {
-    width: 90%;
-    height: 70px;
-
-    position: absolute;
-    top: 0px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-ul {
-    display: flex;
-}
-li {
-    margin-left: 22px;
-    width: auto;
-
-    list-style: none;
-    font-size: 15px;
-    font-weight: 500;
-    color: white;
-}
 
 .text-hiro {
     width: auto;
@@ -101,4 +78,3 @@ footer {
 }
 /* main css */
 
-/* responsive */

@@ -1,0 +1,41 @@
+header {
+    width: 90%;
+    height: 70px;
+
+    position: absolute;
+    top: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+li {
+    margin-left: 22px;
+    width: auto;
+
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.btn-menu-hamburguer {
+    display: none;
+
+    border: none;
+    background: transparent;
+    outline: none;
+
+    cursor: pointer;
+}
+/* responsive */
+@media (max-width: 800px) {
+    .btn-menu-hamburguer {
+        display: flex;
+    }
+    ul {
+        display: none;
+    }
+}
