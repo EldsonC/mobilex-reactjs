@@ -7,6 +7,7 @@ import googlePlayIcon from '../assets/img/google-play-icon.svg'
 
 import { ButtonComponent } from './shared/components/button/button';
 import { HeaderComponent } from './shared/components/header/header';
+
 import './App.css';
 
 function App() {
